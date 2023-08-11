@@ -21,7 +21,7 @@ function useTokensFromMap(tokenMap: TokenAddressMap, includeUserAdded: boolean):
   return useMemo(() => {
     if (!chainId) return {};
 
-    if (tokenMap[chainId] == undefined) return {}; // added by me TEMPORARY
+    if (tokenMap[chainId] === undefined) return {}; // added by me TEMPORARY
 
 
     // reduce to just tokens
