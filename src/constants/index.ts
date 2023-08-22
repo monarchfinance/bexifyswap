@@ -9,7 +9,7 @@ import {
 } from '../connectors';
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
-export const FACTORY_ADDRESS = '0xF934C89F91FbeB20E3cd73C25D1A5f9e9Fff3413';
+export const FACTORY_ADDRESS = '0xac02923FD1c688C49598A9e96C3e5e328C2F9BD0';
 export const ROUTER_ADDRESS = '0xEB0D7aBb8C7610D48ACebe3a824aA27af578A52c';
 
 export const LP_TOKEN_NAME = 'BaseMemeSwap-LP-Token';
@@ -49,8 +49,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  [ChainId.BASE]: [WETH[ChainId.BASE]],
-  [ChainId.BASE_TESTNET]: [WETH[ChainId.BASE_TESTNET]],
+  [ChainId.PATEX]: [WETH[ChainId.PATEX]],
+  [ChainId.PATEX_TESTNET]: [WETH[ChainId.PATEX_TESTNET]],
 };
 
 // used to construct intermediary pairs for trading

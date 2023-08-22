@@ -292,7 +292,7 @@ export default function WalletModal({
           <HeaderRow>{error instanceof UnsupportedChainIdError ? 'Wrong Network' : 'Error connecting'}</HeaderRow>
           <ContentWrapper>
             {error instanceof UnsupportedChainIdError ? (
-              <h5>Please connect to the appropriate Ethereum network.</h5>
+              <h5>Please connect to the appropriate Patex network. For Patex Network Details click <a href='https://docs.patex.io/tech/for-developers/contracts-deployment' target='_blank' rel="noopener noreferrer">here</a>.</h5>
             ) : (
               'Error connecting. Try refreshing the page.'
             )}
