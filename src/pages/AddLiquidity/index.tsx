@@ -115,8 +115,12 @@ export default function AddLiquidity({
   const addTransaction = useTransactionAdder();
 
   async function onAdd() {
+
+    console.log("add liq")
     if (!chainId || !library || !account) return;
     const router = getRouterContract(chainId, library, account);
+
+    console.log(router)
 
     const { [Field.CURRENCY_A]: parsedAmountA, [Field.CURRENCY_B]: parsedAmountB } = parsedAmounts;
     if (!parsedAmountA || !parsedAmountB || !currencyA || !currencyB || !deadline) {
