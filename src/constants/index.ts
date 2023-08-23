@@ -12,8 +12,8 @@ export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 export const FACTORY_ADDRESS = '0xac02923FD1c688C49598A9e96C3e5e328C2F9BD0';
 export const ROUTER_ADDRESS = '0x927E500849370A9d7aba5e73B1e1F97D0Cfd4790';
 
-export const LP_TOKEN_NAME = 'BaseMemeSwap-LP-Token';
-export const LP_TOKEN_SYMBOL = 'BMS-LP';
+export const LP_TOKEN_NAME = 'BexifySwap-LP-Token';
+export const LP_TOKEN_SYMBOL = 'BEXY-LP';
 
 // a list of tokens by chain
 type ChainTokenList = {
