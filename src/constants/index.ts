@@ -51,6 +51,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
   [ChainId.PATEX]: [WETH[ChainId.PATEX]],
   [ChainId.PATEX_TESTNET]: [WETH[ChainId.PATEX_TESTNET]],
+  [ChainId.BSC_TESTNET]: [WETH[ChainId.BSC_TESTNET]],
+  [ChainId.KROMA]: [WETH[ChainId.KROMA]],
 };
 
 // used to construct intermediary pairs for trading
